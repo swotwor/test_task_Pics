@@ -1,0 +1,28 @@
+.wrapper {
+    padding: 10px;
+    border-radius: 10px;
+    background-color: white;
+    
+    form {
+        display: flex;
+        flex-direction: column;
+
+        textarea {
+            width: 430px;
+            padding: 10px;
+            border-radius: 10px;
+            margin-bottom: 5px;
+            background-color: rgb(230, 230, 230);
+        }
+
+        button {
+            width: max-content;
+            cursor: pointer;
+            padding: 5px;
+            border-radius: 5px;
+            background-color: rgb(230,230,230);
+        }
+    }
+    
+
+}
